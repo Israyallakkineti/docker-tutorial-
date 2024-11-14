@@ -1,0 +1,60 @@
+What is Docker?
+Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code, you can significantly reduce the delay between writing code and running it in production.
+
+
+WHAT IS DOCKER CONTAINER :--
+
+A Docker container is a light-weight,Standlone package of software that container everything required to run application. Containers are ISOLATED ENVIRONMENTS, that run applications without affecting the rest of the system. they are available for Linux and windows-based application.
+
+
+update the (cli or local instance);--
+# sudo apt-get update 
+
+Docker-installation:--
+
+first you required instance create and tack ubuntu - jenkins/java/docker and git installation
+now check the all version ans (status are active)
+
+docker installation 
+# apt or snap install docker.io - y
+
+docker version
+# sudo docker --version
+
+start docker 
+# sudo systemctl start docker
+
+status check docker
+# systemctl status docker (active)
+
+ Add user to the docker group
+sudo usermod -aG docker ubuntu (ubuntu is my user)
+
+check docker images 
+# docker images
+
+dow docker pull images in local 
+# docker pull tomcat 
+
+check docker images 
+# docker images
+
+running container check it
+docker ps 
+
+docker build command 
+docker run -d --name israyal -it tomcat 
+
+docker build containers
+docker ps - a
+
+docker container remove
+docker rm -f (containerId)
+
+docker image remove
+docker rmi (image name tomcat)
+
+
+docker details of the tomcat
+docker inspect tomcat
+
