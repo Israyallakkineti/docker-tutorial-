@@ -54,7 +54,10 @@ docker rm -f (containerId)
 docker image remove
 docker rmi (image name tomcat)
 
+docker inspect to changes container the file system
+docker diff (containerId)
 
 docker details of the tomcat
 docker inspect tomcat
+
 
