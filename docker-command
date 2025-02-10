@@ -16,7 +16,7 @@ first you required instance create and tack ubuntu - jenkins/java/docker and git
 now check the all version ans (status are active)
 
 docker installation 
-# apt or snap install docker.io - y
+# sudo apt install docker.io - y
 
 docker version
 # sudo docker --version
